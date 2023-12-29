@@ -4,7 +4,7 @@ import "./App.css";
 
 const App = () => {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: `AIzaSyDF6E4Ao0BsoHKUGolyAzMj-1sXEQjE1wM`,
+    googleMapsApiKey: `use your Api`,
   });
   const center = useMemo(() => ({ lat: 18.52043, lng: 73.856743 }), []);
   const customMarker = {
